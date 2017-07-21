@@ -1,0 +1,32 @@
+@mixin excel(){
+	margin-top:60px;
+
+}
+
+@mixin margen(){
+	margin-top:20px;
+	margin-bottom:20px;
+
+}
+
+@mixin margenparr{
+	margin-left:40px;
+	margin-right:40px;
+	color:$parrafo;
+	font-size:$parrafosize;
+
+}
+
+@mixin h4{
+	color:black;
+	font-size:25px;
+
+}
+
+@mixin imacirculo{
+	width:$width_img;
+	margin-top:30px;
+	margin-bottom:30px;
+	box-shadow: 2px 2px 30px #999;
+
+}

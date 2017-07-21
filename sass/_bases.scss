@@ -1,0 +1,67 @@
+
+.unopart{
+
+
+	h1 	{
+		display:flex;
+		position:absolute;
+		margin-top:300px;
+		margin-left:500px;
+		color:white;
+
+
+		}
+	h3 	{
+		display:flex;
+		position:absolute;
+		margin-top:340px;
+		margin-left:400px;
+		color:white;
+
+		}
+}
+
+.dospart{
+	@include excel();
+
+	p{
+		@include margenparr();
+	}
+	 div {
+	 	@include margen();
+	 	.ico{
+	 		font-size:$icono;
+	 		color:#e91e63;
+	 	}
+	 	.dos{
+			color:#00bcd4;
+	 	}
+	 	.tres{
+	 		color:#4caf50;
+	 	}
+		
+	}
+	h4{
+		@include h4();
+	}
+
+}
+.clients{
+	@include excel();
+
+	img{
+		
+		@include imacirculo();
+
+	}
+	p{
+		margin-top:30px;
+		margin-bottom:30px;
+		@include margenparr();
+	}
+
+	h4{
+		@include h4();
+	}
+	
+}
