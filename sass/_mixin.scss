@@ -30,3 +30,19 @@
 	box-shadow: 2px 2px 30px #999;
 
 }
+
+@mixin huno{
+	display:flex;
+	position:absolute;
+
+}
+@mixin boton{
+	display:flex;
+	position:absolute;
+	color:white;
+	width: 150px;
+	height: 50px;
+	border:transparent;
+	text-align: center;
+}
+

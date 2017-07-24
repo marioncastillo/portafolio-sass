@@ -5810,15 +5810,35 @@ div{
 .unopart h1 {
   display: flex;
   position: absolute;
+  font-size: 70px;
   margin-top: 300px;
-  margin-left: 500px;
+  margin-left: 400px;
   color: white; }
 .unopart h3 {
   display: flex;
   position: absolute;
-  margin-top: 340px;
-  margin-left: 400px;
+  margin-top: 400px;
+  margin-left: 550px;
   color: white; }
+.unopart .hb {
+  margin-left: 350px; }
+.unopart button {
+  display: flex;
+  position: absolute;
+  display: flex;
+  position: absolute;
+  color: white;
+  width: 150px;
+  height: 50px;
+  border: transparent;
+  text-align: center;
+  margin-top: 450px;
+  margin-left: 650px;
+  background-color: #e91e63; }
+  .unopart button a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white; }
 
 .dospart {
   margin-top: 60px; }

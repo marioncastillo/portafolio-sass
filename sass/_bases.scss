@@ -3,22 +3,39 @@
 
 
 	h1 	{
-		display:flex;
-		position:absolute;
+		@include huno();
+		font-size:70px;
 		margin-top:300px;
-		margin-left:500px;
+		margin-left:400px;
 		color:white;
 
 
 		}
 	h3 	{
-		display:flex;
-		position:absolute;
-		margin-top:340px;
-		margin-left:400px;
+		@include huno();
+		margin-top:400px;
+		margin-left:550px;
 		color:white;
 
 		}
+	.hb{
+		margin-left:350px;
+
+	}
+	button{
+		@include huno();
+		@include boton();
+		margin-top:450px;
+		margin-left:650px;
+		background-color: #e91e63;	
+			a{
+		margin-left:30px;
+		text-decoration: none;
+		color:white;
+
+	}
+	}
+
 }
 
 .dospart{
