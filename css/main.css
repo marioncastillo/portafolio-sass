@@ -5807,21 +5807,24 @@ div{
 		color:green;
 	}
 }*/
+.dropdown button.btn {
+  background-color: #e91e63; }
+
 .unopart h1 {
   display: flex;
   position: absolute;
-  font-size: 70px;
-  margin-top: 300px;
-  margin-left: 400px;
+  font-size: 500%;
+  margin-top: 20%;
+  margin-left: 30%;
   color: white; }
 .unopart h3 {
   display: flex;
   position: absolute;
-  margin-top: 400px;
-  margin-left: 550px;
+  margin-top: 28%;
+  margin-left: 40%;
   color: white; }
 .unopart .hb {
-  margin-left: 350px; }
+  margin-left: 25%; }
 .unopart button {
   display: flex;
   position: absolute;
@@ -5832,8 +5835,8 @@ div{
   height: 50px;
   border: transparent;
   text-align: center;
-  margin-top: 450px;
-  margin-left: 650px;
+  margin-top: 33%;
+  margin-left: 45%;
   background-color: #e91e63; }
   .unopart button a {
     margin-left: 30px;
@@ -5878,5 +5881,16 @@ div{
   .clients h4 {
     color: black;
     font-size: 25px; }
+
+.portfolio p {
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #999;
+  font-size: 17px; }
+.portfolio img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 30px #999; }
 
 /*# sourceMappingURL=main.css.map */

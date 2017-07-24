@@ -1,32 +1,37 @@
 
+.dropdown{
+	button.btn{
+		background-color: #e91e63;
+	}
+}
 .unopart{
 
 
 	h1 	{
 		@include huno();
-		font-size:70px;
-		margin-top:300px;
-		margin-left:400px;
+		font-size:500%;
+		margin-top:20%;
+		margin-left:30%;
 		color:white;
 
 
 		}
 	h3 	{
 		@include huno();
-		margin-top:400px;
-		margin-left:550px;
+		margin-top:28%;
+		margin-left:40%;
 		color:white;
 
 		}
 	.hb{
-		margin-left:350px;
+		margin-left:25%;
 
 	}
 	button{
 		@include huno();
 		@include boton();
-		margin-top:450px;
-		margin-left:650px;
+		margin-top:33%;
+		margin-left:45%;
 		background-color: #e91e63;	
 			a{
 		margin-left:30px;
@@ -81,4 +86,18 @@
 		@include h4();
 	}
 	
+}
+
+.portfolio{
+	p{
+		@include margenparr();
+	}
+
+	img{
+		width: 100%;
+		border-radius: $bordercirc;
+		margin-bottom:30px;
+		box-shadow:$shadow;
+
+		}
 }
