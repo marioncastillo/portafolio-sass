@@ -61,15 +61,18 @@
 	 	.tres{
 	 		color:#4caf50;
 	 	}
-		
+		h4{
+		@include titulocua();
 	}
-	h4{
-		@include h4();
 	}
 
 }
 .clients{
 	@include excel();
+
+	h2{
+		@include titulodos();
+	}
 
 	img{
 		
@@ -83,14 +86,22 @@
 	}
 
 	h4{
-		@include h4();
+		@include titulocua();
 	}
+
 	
 }
 
 .portfolio{
+	h2{
+		@include titulodos();
+		margin-bottom:30px;
+	}
 	p{
+		@include margen();
 		@include margenparr();
+		margin-bottom:50px;
+
 	}
 
 	img{

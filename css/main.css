@@ -5860,12 +5860,18 @@ div{
       color: #00bcd4; }
     .dospart div .tres {
       color: #4caf50; }
-  .dospart h4 {
-    color: black;
-    font-size: 25px; }
+    .dospart div h4 {
+      color: #3c4858;
+      font-size: 25px; }
 
 .clients {
   margin-top: 60px; }
+  .clients h2 {
+    color: #3c4858;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-size: 36.4px;
+    font-weight: 70px; }
   .clients img {
     width: 30%;
     margin-top: 30px;
@@ -5879,14 +5885,24 @@ div{
     color: #999;
     font-size: 17px; }
   .clients h4 {
-    color: black;
+    color: #3c4858;
     font-size: 25px; }
 
+.portfolio h2 {
+  color: #3c4858;
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-size: 36.4px;
+  font-weight: 70px;
+  margin-bottom: 30px; }
 .portfolio p {
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 40px;
   margin-right: 40px;
   color: #999;
-  font-size: 17px; }
+  font-size: 17px;
+  margin-bottom: 50px; }
 .portfolio img {
   width: 100%;
   border-radius: 5px;
